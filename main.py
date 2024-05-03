@@ -2,5 +2,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def hello():
+def ping():
     return {"message":"I'm alive..."}
